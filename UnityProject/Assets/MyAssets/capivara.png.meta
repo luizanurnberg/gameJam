@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      capivara_0: 6172250269450560281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

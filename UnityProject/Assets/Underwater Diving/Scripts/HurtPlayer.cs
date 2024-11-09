@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HurtPlayer : MonoBehaviour
@@ -23,6 +24,20 @@ public class HurtPlayer : MonoBehaviour
             messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
         }
 
+    }
+
+    void Update()
+    {
+
+        Debug.Log("Update");
+        Scene currentScene = SceneManager.GetActiveScene();
+        Debug.Log(currentScene);
+        Debug.Log(currentScene.name);
+        if (currentScene.name == "Level3" && pontuacao == 0)
+        {
+            SceneManager.LoadScene("FinalScene");
+            Debug.Log("Trocando Cena");
+        }
     }
 
 

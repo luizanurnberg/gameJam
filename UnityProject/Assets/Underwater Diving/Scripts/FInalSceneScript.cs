@@ -16,9 +16,9 @@ public class FinalSceneScript : MonoBehaviour
     private void Start()
     {
         // Recuperar a pontuação armazenada
-        pontuacao = PlayerPrefs.GetInt("Pontuacao", 0);
+        pontuacao = HurtPlayer.pontuacao;
 
-        if (pontuacao > 10)
+        if (pontuacao == 0)
         {
             finalSceneTitulo.text = "VOCE GANHOU!";
         }
@@ -27,6 +27,6 @@ public class FinalSceneScript : MonoBehaviour
             finalSceneTitulo.text = "VOCE PERDEU!";
         }
 
-        finalScenePontuacao.text = "Pontuacao: " + pontuacao;
+        finalScenePontuacao.text = "Nivel de Poluição: " + pontuacao;
     }
 }
