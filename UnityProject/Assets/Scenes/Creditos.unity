@@ -333,6 +333,7 @@ RectTransform:
   - {fileID: 1417173731}
   - {fileID: 1129711209}
   - {fileID: 413753983}
+  - {fileID: 534989474}
   - {fileID: 1718950242}
   - {fileID: 687443363}
   m_Father: {fileID: 1162633048}
@@ -417,6 +418,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd38c10a7ad740ea99921eaf24502f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  history: {fileID: 0}
+--- !u!1 &534989473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534989474}
+  - component: {fileID: 534989476}
+  - component: {fileID: 534989475}
+  m_Layer: 5
+  m_Name: Creditos3
+  m_TagString: MessageText
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &534989474
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534989473}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 527347860}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 648, y: -385}
+  m_SizeDelta: {x: 130.2478, y: 167.9144}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &534989475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534989473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 9ebb6ca5ee4094addac513cf8528f1e1, type: 2}
+    m_FontSize: 200
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "IMAGENS:\n\nhttps://www.gettyimages.com.br/ilustra\xE7\xF5es/capivara"
+--- !u!222 &534989476
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534989473}
+  m_CullTransparentMesh: 1
 --- !u!1 &687443362
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,8 +889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68, y: -94.55774}
-  m_SizeDelta: {x: 173.2706, y: 167.9144}
+  m_AnchoredPosition: {x: -68, y: -121}
+  m_SizeDelta: {x: 173.2706, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129711210
 MonoBehaviour:
@@ -865,7 +946,11 @@ MonoBehaviour:
 
 
     Pixel
-    Font TripFive - Unity Asset Store'
+    Font TripFive - Unity Asset Store
+
+
+    Modern 2D Platformer Kitchen Furniture
+    - Unity Asset Store'
 --- !u!222 &1129711211
 CanvasRenderer:
   m_ObjectHideFlags: 0
