@@ -8420,7 +8420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544fcda47942e2842a035d43b0e9512b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level3
+  sceneName: EffectBubbleLevel3
   bubbleEffectPrefab: {fileID: 1000012696881832, guid: 0d1adb20421ed664b800c8cf3d103e70, type: 3}
   bubbleSound: {fileID: 8300000, guid: 4016b299a51da8142abb7cd01906a960, type: 3}
 --- !u!61 &1412674300
@@ -12643,7 +12643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544fcda47942e2842a035d43b0e9512b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level3
+  sceneName: EffectBubbleLevel3
   bubbleEffectPrefab: {fileID: 1000012696881832, guid: 0d1adb20421ed664b800c8cf3d103e70, type: 3}
   bubbleSound: {fileID: 8300000, guid: 4016b299a51da8142abb7cd01906a960, type: 3}
 --- !u!1 &2074743347
