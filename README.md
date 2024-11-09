@@ -1,4 +1,12 @@
-# Aquagariman - GameJAM
+<p align="center">
+  <img src="UnityProject/Assets/MyAssets/capivara.png" alt="Capivara" width="80" height="80">
+</p>
+
+<h1 align="center">CAPIVARA GAMES</h1>
+
+# Aquagariman
+
+![Finalizado](https://img.shields.io/badge/Status-Finalizado-green)
 
 __Aquagariman__ é um jogo educativo onde o jogador controla um personagem subaquático com a missão de limpar o oceano. O objetivo é coletar o máximo de lixo possível, reduzindo a poluição das águas e protegendo a vida marinha, dentro de um tempo limitado ou até limpar completamente a área do jogo. 
 
@@ -22,6 +30,5 @@ O objetivo principal do jogo é reduzir a pontuação de poluição a zero em ca
 * Eletrônico (baterias, lanterna): -20 poluição.
 * Alimento (fruta, alimento velho): -5 poluição.
 * Remédio (pílulas, remédios): -30 poluição.
-* Bomba (bomba): +50 poluição (aumenta a poluição se coletada acidentalmente).
 
 ![image](https://github.com/user-attachments/assets/f7d7cc60-a4d9-4550-ae1e-2cc725a1a48c)
