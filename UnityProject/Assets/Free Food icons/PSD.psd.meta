@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: fbc991a4cc408a44c95f71e2ebaa8b3b
+guid: 2099787766714cb44be46bb5e8d83b00
 AssetOrigin:
   serializedVersion: 1
-  productId: 131764
-  packageName: Free Game Items
+  productId: 133577
+  packageName: Free Food icons
   packageVersion: 1.0
-  assetPath: Assets/Free Game Items/300dpi/brick.png
-  uploadId: 275016
+  assetPath: Assets/Free Food icons/PSD.psd
+  uploadId: 279629
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,7 +46,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -107,7 +107,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 735070ecf3977a141849ddf32bc35bf7
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
