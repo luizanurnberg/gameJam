@@ -10,6 +10,7 @@ TagManager:
   - LixoEletronico
   - LixoObjeto
   - MessageText
+  - LixoBomba
   layers:
   - Default
   - TransparentFX

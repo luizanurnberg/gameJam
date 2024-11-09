@@ -11,9 +11,6 @@ public class HurtPlayer : MonoBehaviour
     public Text messageText;
     public static int pontuacao = 1000;
 
-    public AudioClip somObjeto;
-    private AudioSource audioSrc;
-
     void Start()
     {
         thePlayer = FindObjectOfType<PlayerController>();
@@ -25,9 +22,6 @@ public class HurtPlayer : MonoBehaviour
             messageText = messageObject.GetComponent<Text>();
         }
 
-        audioSrc = GetComponent<AudioSource>();
-        audioSrc.clip = somObjeto;
-        audioSrc.Play();
     }
 
 
@@ -38,54 +32,36 @@ public class HurtPlayer : MonoBehaviour
         if (gameObject.tag == "LixoObjeto")
         {
             pontuacao -= 10;
-            audioSrc.clip = somObjeto;
-            audioSrc.time = 1;
-            audioSrc.Play();
             messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
-            Destroy(gameObject, audioSrc.clip.length);
+            Destroy(gameObject);
         } else if (gameObject.tag == "LixoPerigoso")
         {
             pontuacao -= 35;
-            audioSrc.clip = somObjeto;
-            audioSrc.time = 1;
-            audioSrc.Play();
             messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
-            Destroy(gameObject, audioSrc.clip.length);
+            Destroy(gameObject);
         } else if (gameObject.tag == "LixoEletronico")
         {
             pontuacao -= 20;
-            audioSrc.clip = somObjeto;
-            audioSrc.time = 1;
-            audioSrc.Play();
             messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
-            Destroy(gameObject, audioSrc.clip.length);
+            Destroy(gameObject);
         }
         else if (gameObject.tag == "LixoAlimento")
         {
             pontuacao -= 5;
-            audioSrc.clip = somObjeto;
-            audioSrc.time = 1;
-            audioSrc.Play();
             messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
-            Destroy(gameObject, audioSrc.clip.length);
+            Destroy(gameObject);
         }
         else if (gameObject.tag == "LixoRemedio")
         {
             pontuacao -= 30;
-            audioSrc.clip = somObjeto;
-            audioSrc.time = 1;
-            audioSrc.Play();
             messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
-            Destroy(gameObject, audioSrc.clip.length);
+            Destroy(gameObject);
         }
         else if (gameObject.tag == "LixoBomba")
         {
             pontuacao += 50;
-            audioSrc.clip = somObjeto;
-            audioSrc.time = 1;
-            audioSrc.Play();
             messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
-            Destroy(gameObject, audioSrc.clip.length);
+            Destroy(gameObject);
         }
     }
 }
