@@ -6757,6 +6757,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level2
+  bubbleEffectPrefab: {fileID: 1000012696881832, guid: 0d1adb20421ed664b800c8cf3d103e70, type: 3}
+  bubbleSound: {fileID: 8300000, guid: 4016b299a51da8142abb7cd01906a960, type: 3}
 --- !u!61 &1412674300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11164,6 +11166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level2
+  bubbleEffectPrefab: {fileID: 1000012696881832, guid: 0d1adb20421ed664b800c8cf3d103e70, type: 3}
+  bubbleSound: {fileID: 8300000, guid: 4016b299a51da8142abb7cd01906a960, type: 3}
 --- !u!61 &2056982306
 BoxCollider2D:
   m_ObjectHideFlags: 0

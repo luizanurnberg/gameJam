@@ -6,12 +6,38 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
     public string sceneName;
+    public GameObject bubbleEffectPrefab;
+    public AudioClip bubbleSound;
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneName);
+            StartCoroutine(TransitionWithBubbleEffect());
         }
+    }
+
+    private IEnumerator TransitionWithBubbleEffect()
+    {
+        GameObject bubbleEffect = Instantiate(bubbleEffectPrefab, transform.position, Quaternion.identity);
+
+        if (bubbleSound != null)
+        {
+            audioSource.clip = bubbleSound;
+            audioSource.Play();
+        }
+
+        yield return new WaitForSeconds(3);
+
+        Destroy(bubbleEffect);
+
+        SceneManager.LoadScene(sceneName);
     }
 }
