@@ -11,6 +11,8 @@ TagManager:
   - LixoObjeto
   - MessageText
   - LixoBomba
+  - FinalSceneTitulo
+  - FinalScenePontuacao
   layers:
   - Default
   - TransparentFX
