@@ -6984,6 +6984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoObjeto
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
