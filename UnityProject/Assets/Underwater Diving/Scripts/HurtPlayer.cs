@@ -8,7 +8,7 @@ public class HurtPlayer : MonoBehaviour
 
     private PlayerController thePlayer;
     public Text messageText;
-    private static int pontuacao;
+    public static int pontuacao = 1000;
 
     // Use this for initialization
     void Start()
@@ -23,14 +23,34 @@ public class HurtPlayer : MonoBehaviour
         }
     }
 
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
-        {
-            thePlayer.hurt();
-            pontuacao += 1;
-            messageText.text = ("Pontuação: " + pontuacao.ToString());
-        }
 
+       if (gameObject.tag == "LixoObjeto")
+        {
+            pontuacao -= 10;
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+        } else if (gameObject.tag == "LixoPerigoso")
+        {
+            pontuacao -= 35;
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+        } else if (gameObject.tag == "LixoEletronico")
+        {
+            pontuacao -= 20;
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+        } else if (gameObject.tag == "LixoAlimento")
+        {
+            pontuacao -= 5;
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+        } else if (gameObject.tag == "LixoRemedio")
+        {
+            pontuacao -= 30;
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+        } else if (gameObject.tag == "LixoBomba")
+        {
+            pontuacao += 50;
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+        }
     }
 }
