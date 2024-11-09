@@ -20,6 +20,10 @@ public class PressEnter : MonoBehaviour
         {
             SceneManager.LoadScene("Level1");
         }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            SceneManager.LoadScene("Creditos");
+        }
     }
 
     public IEnumerator blinkText()

@@ -15,13 +15,7 @@ public class FinalSceneScript : MonoBehaviour
 
     private void Start()
     {
-
-
-        //na tela que chamar esse script, chamar assim:
-        // PlayerPrefs.SetInt("Pontuacao", pontuacao);
-        // SceneManager.LoadScene("FinalScene");
-
-
+        // Recuperar a pontuação armazenada
         pontuacao = PlayerPrefs.GetInt("Pontuacao", 0);
 
         if (pontuacao > 10)
