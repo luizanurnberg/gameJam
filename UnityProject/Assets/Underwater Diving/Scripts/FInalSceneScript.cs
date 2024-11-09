@@ -27,6 +27,6 @@ public class FinalSceneScript : MonoBehaviour
             finalSceneTitulo.text = "VOCE PERDEU!";
         }
 
-        finalScenePontuacao.text = "Nivel de Poluição: " + pontuacao;
+        finalScenePontuacao.text = "Nivel de Poluicao: " + pontuacao;
     }
 }
