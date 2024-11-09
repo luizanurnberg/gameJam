@@ -29,7 +29,7 @@ public class SceneTransition : MonoBehaviour
         {
             if (uiManager != null)
             {
-                uiManager.ShowGenericMessage(2f, "Você precisa recolher todo o lixo!");
+                uiManager.ShowGenericMessage(2f, "Voce precisa recolher todo o lixo!");
             }
         }
     }
