@@ -31,7 +31,7 @@ public class UIManager : MonoBehaviour
     {
         if (timeAddedText != null)
         {
-            timeAddedText.text = "5 segundos adicionados!";
+            timeAddedText.text = "Voce ganhou mais 5 segundos!";
             timer = duration;
         }
     }
@@ -40,7 +40,7 @@ public class UIManager : MonoBehaviour
     {
         if (timeAddedText != null)
         {
-            timeAddedText.text = "Voce perdeu 5 segundos! Cuidado com a vida marinha!";
+            timeAddedText.text = "Voce perdeu 5 segundos ao ferir a vida marinha, tome cuidado!";
             timer = duration;
         }
     }
