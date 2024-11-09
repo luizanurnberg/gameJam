@@ -10,8 +10,6 @@ public class TitleScreen : MonoBehaviour {
 
 	private int titleState;
 
-	public GameObject instructionsWindow;
-
 	// Use this for initialization
 	void Start () {
 		titleState = 1;		
@@ -25,11 +23,10 @@ public class TitleScreen : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Return)){
 
 			if (titleState == 1) {
-				instructionsWindow.SetActive (true);
 				titleState = 2;
 
 			} else {
-				SceneManager.LoadScene ("scene-1");
+				SceneManager.LoadScene ("Level1");
 			}
 
 		}
