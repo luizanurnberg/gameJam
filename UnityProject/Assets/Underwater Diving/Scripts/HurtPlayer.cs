@@ -9,17 +9,18 @@ public class HurtPlayer : MonoBehaviour
 
     private PlayerController thePlayer;
     public Text messageText;
-    public static int pontuacao = 1000;
+    public static int pontuacao = 500;
 
     void Start()
     {
+        
         thePlayer = FindObjectOfType<PlayerController>();
 
-        // Procura o objeto com a tag e pega o componente Text
         GameObject messageObject = GameObject.FindWithTag("MessageText");
         if (messageObject != null)
         {
             messageText = messageObject.GetComponent<Text>();
+            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
         }
 
     }

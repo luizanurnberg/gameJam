@@ -25,19 +25,33 @@ public class SceneTransition : MonoBehaviour
     }
 
     private IEnumerator TransitionWithBubbleEffect()
-    {
-        GameObject bubbleEffect = Instantiate(bubbleEffectPrefab, transform.position, Quaternion.identity);
+ {
+     GameObject bubbleEffect = Instantiate(bubbleEffectPrefab, transform.position, Quaternion.identity);
 
-        if (bubbleSound != null)
-        {
-            audioSource.clip = bubbleSound;
-            audioSource.Play();
-        }
+     if (bubbleSound != null)
+     {
+         audioSource.clip = bubbleSound;
+         audioSource.Play();
+     }
 
-        yield return new WaitForSeconds(3);
+     yield return new WaitForSeconds(3);
 
-        Destroy(bubbleEffect);
+     Destroy(bubbleEffect);
 
-        SceneManager.LoadScene(sceneName);
-    }
+     SceneManager.LoadScene(sceneName);
+
+     Debug.Log("SceneName: " + sceneName);
+     if (sceneName == "EffectBubbleLevel2")
+     {
+         HurtPlayer.pontuacao = 350;
+         Debug.Log("Definiu nova pontuação 2");
+     }
+     
+     
+     if (sceneName == "EffectBubbleLevel3") 
+     {
+         HurtPlayer.pontuacao = 250;
+         Debug.Log("Definiu nova pontuação 3");
+     }
+ }
 }

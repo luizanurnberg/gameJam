@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 33379414}
   m_Layer: 5
   m_Name: Text (Legacy) (1)
-  m_TagString: MessageText
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4853,7 +4853,7 @@ GameObject:
   - component: {fileID: 1229024812}
   m_Layer: 5
   m_Name: Text (Legacy)
-  m_TagString: MessageText
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

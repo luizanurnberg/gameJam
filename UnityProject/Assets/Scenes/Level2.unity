@@ -7809,7 +7809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52df3cb6a124fd74c8599b5fbb99ea85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 10
+  levelTime: 50
   timerText: {fileID: 862418697}
   gameOverScreen: {fileID: 0}
 --- !u!1001 &1195575195
