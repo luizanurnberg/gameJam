@@ -2358,6 +2358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoObjeto
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3585,6 +3589,10 @@ PrefabInstance:
     - target: {fileID: 1304344704602514, guid: 3d5ddb7d08e7a4a2187a92f5a9bd05ab, type: 3}
       propertyPath: m_Name
       value: MineSmall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304344704602514, guid: 3d5ddb7d08e7a4a2187a92f5a9bd05ab, type: 3}
+      propertyPath: m_TagString
+      value: LixoBomba
       objectReference: {fileID: 0}
     - target: {fileID: 4903030220104806, guid: 3d5ddb7d08e7a4a2187a92f5a9bd05ab, type: 3}
       propertyPath: m_RootOrder
@@ -6915,6 +6923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoObjeto
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7560,6 +7572,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1304344704602514, guid: 3d5ddb7d08e7a4a2187a92f5a9bd05ab, type: 3}
+      propertyPath: m_TagString
+      value: LixoBomba
+      objectReference: {fileID: 0}
     - target: {fileID: 4903030220104806, guid: 3d5ddb7d08e7a4a2187a92f5a9bd05ab, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -7948,6 +7964,10 @@ PrefabInstance:
     - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_Name
       value: Mine (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
       objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
@@ -8803,6 +8823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8967,6 +8991,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1715452762103450, guid: 962cfdd592b6e44938a214becadcb0cb, type: 3}
+      propertyPath: m_TagString
+      value: LixoBomba
+      objectReference: {fileID: 0}
     - target: {fileID: 4725336497252844, guid: 962cfdd592b6e44938a214becadcb0cb, type: 3}
       propertyPath: m_RootOrder
       value: 4
