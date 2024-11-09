@@ -47,7 +47,8 @@ public class Enemy : MonoBehaviour {
 
 		if(other.tag == "Player" && thePlayer.rushing){
 			Instantiate (death, gameObject.transform.position, gameObject.transform.rotation);
-			Destroy (gameObject);
+            LevelTimer.timeRemaining = LevelTimer.timeRemaining - 5;
+            Destroy (gameObject);
 		}
 
 	}

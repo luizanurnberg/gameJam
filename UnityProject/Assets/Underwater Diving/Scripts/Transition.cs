@@ -50,7 +50,7 @@ public class SceneTransition : MonoBehaviour
      
      if (sceneName == "EffectBubbleLevel3") 
      {
-         HurtPlayer.pontuacao = 250;
+         HurtPlayer.pontuacao = 150;
          Debug.Log("Definiu nova pontuação 3");
      }
  }

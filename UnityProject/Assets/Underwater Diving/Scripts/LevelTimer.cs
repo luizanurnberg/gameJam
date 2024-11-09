@@ -6,7 +6,7 @@ public class LevelTimer : MonoBehaviour
 {
 
     public float levelTime = 30f;
-    private float timeRemaining;
+    public static float timeRemaining;
     public Text timerText;
     public GameObject gameOverScreen;
 
