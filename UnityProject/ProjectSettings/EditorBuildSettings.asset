@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: 89ca1f765fbc82240a0ebe322264b035
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: ca7ece551a6644a3bb48ce3b902287bf
   - enabled: 0
     path: Assets/Scenes/EffectBubble.unity
     guid: d766312197759c74d86b3e28f2eda74a
