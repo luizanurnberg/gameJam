@@ -20,7 +20,7 @@ public class HurtPlayer : MonoBehaviour
         if (messageObject != null)
         {
             messageText = messageObject.GetComponent<Text>();
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
         }
 
     }
@@ -33,35 +33,35 @@ public class HurtPlayer : MonoBehaviour
         if (gameObject.tag == "LixoObjeto")
         {
             pontuacao -= 10;
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
             Destroy(gameObject);
         } else if (gameObject.tag == "LixoPerigoso")
         {
             pontuacao -= 35;
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
             Destroy(gameObject);
         } else if (gameObject.tag == "LixoEletronico")
         {
             pontuacao -= 20;
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
             Destroy(gameObject);
         }
         else if (gameObject.tag == "LixoAlimento")
         {
             pontuacao -= 5;
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
             Destroy(gameObject);
         }
         else if (gameObject.tag == "LixoRemedio")
         {
             pontuacao -= 30;
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
             Destroy(gameObject);
         }
         else if (gameObject.tag == "LixoBomba")
         {
             pontuacao += 50;
-            messageText.text = "Nivel de Poluição: " + pontuacao.ToString();
+            messageText.text = "Nivel de Poluicao: " + pontuacao.ToString();
             Destroy(gameObject);
         }
     }

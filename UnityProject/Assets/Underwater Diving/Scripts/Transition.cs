@@ -10,17 +10,27 @@ public class SceneTransition : MonoBehaviour
     public AudioClip bubbleSound;
     private AudioSource audioSource;
 
+    private UIManager uiManager;
+
     private void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false;
+
+        uiManager = FindObjectOfType<UIManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && HurtPlayer.pontuacao == 0)
         {
             StartCoroutine(TransitionWithBubbleEffect());
+        } else
+        {
+            if (uiManager != null)
+            {
+                uiManager.ShowGenericMessage(2f, "Você precisa recolher todo o lixo!");
+            }
         }
     }
 

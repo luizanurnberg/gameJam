@@ -14,16 +14,18 @@ public class Enemy : MonoBehaviour {
 
 	private Rigidbody2D myRigidbody;
 
+    private UIManager uiManager;
 
 
- 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		thePlayer = FindObjectOfType<PlayerController> ();	
 		myRigidbody = GetComponent<Rigidbody2D> ();
 
-		turnTimer = 0;
+        uiManager = FindObjectOfType<UIManager>();
+
+        turnTimer = 0;
 		timeTrigger = 3f;
 		 
 	}
@@ -45,11 +47,18 @@ public class Enemy : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 
-		if(other.tag == "Player" && thePlayer.rushing){
-			Instantiate (death, gameObject.transform.position, gameObject.transform.rotation);
-            LevelTimer.timeRemaining = LevelTimer.timeRemaining - 5;
-            Destroy (gameObject);
-		}
+        if (other.tag == "Player" && thePlayer.rushing)
+        {
+            Instantiate(death, gameObject.transform.position, gameObject.transform.rotation);
+            LevelTimer.timeRemaining -= 5;
+
+            if (uiManager != null)
+            {
+                uiManager.ShowTimeRemovedMessage(2f);
+            }
+
+            Destroy(gameObject);
+        }
 
 	}
 

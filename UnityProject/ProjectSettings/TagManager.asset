@@ -14,6 +14,7 @@ TagManager:
   - FinalSceneTitulo
   - FinalScenePontuacao
   - JogarNovamente
+  - Ampulheta
   layers:
   - Default
   - TransparentFX
