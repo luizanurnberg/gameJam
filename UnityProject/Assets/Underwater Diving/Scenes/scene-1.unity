@@ -1045,6 +1045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1647,6 +1651,10 @@ PrefabInstance:
     - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_Name
       value: Mine (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
       objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
@@ -6368,6 +6376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoRemedio
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -6983,6 +6995,10 @@ PrefabInstance:
     - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_Name
       value: Mine (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
       objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
@@ -7753,6 +7769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8161,6 +8181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoObjeto
+      objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8474,6 +8498,10 @@ PrefabInstance:
     - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_Name
       value: Mine (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243079264059846, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
+      propertyPath: m_TagString
+      value: LixoAlimento
       objectReference: {fileID: 0}
     - target: {fileID: 4103857105498608, guid: 3c90ee8e6b81b43d1b29519e9e725d59, type: 3}
       propertyPath: m_RootOrder
