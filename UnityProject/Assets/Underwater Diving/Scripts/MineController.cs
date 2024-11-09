@@ -21,7 +21,7 @@ public class MineController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if(other.tag == "Player"){	
 			
-			Destroy (gameObject);
+			//Destroy (gameObject);
 			Instantiate (explosion, gameObject.transform.position, gameObject.transform.rotation);
 		}	
 	}
